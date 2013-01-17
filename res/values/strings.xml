@@ -2,7 +2,12 @@
 <resources>
 
     <string name="app_name">myandroidapp</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-
+    <string name="hello">Hello， 按钮触发事件</string>
+    <string name="menu_settings">设置</string>
+    <string name="button">按钮</string>
+	<string name="about">关于</string>
+	<string name="tangseng">唐僧</string>
+	<string name="sunwukong">孙悟空</string>
+	<string name="zhubajie">猪八戒</string>
+	<string name="shaheshang">沙和尚</string>
 </resources>

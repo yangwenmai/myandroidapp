@@ -1,14 +1,44 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:text="@string/hello" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button" >
+    </Button>
+
+    <!-- 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+ 	
+ 	<RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+ 	    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tangseng" android:id="@+id/tangseng"/>
+ 	    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sunwukong" android:id="@+id/sunwukong"/>
+ 	    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zhubajie" android:id="@+id/zhubajie"/>
+ 	    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shaheshang" android:id="@+id/shaheshang"/>
+ 	</RadioGroup>
+ 	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tangseng" android:id="@+id/tangseng" />
+ 	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sunwukong" android:id="@+id/sunwukong" />
+ 	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zhubajie" android:id="@+id/zhubajie" />
+ 	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shaheshang" android:id="@+id/shaheshang" />
+ 	<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/spinner"/>
+ 	-->
+ 	<ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/listView"></ListView>
+</LinearLayout>
