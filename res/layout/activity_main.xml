@@ -5,11 +5,17 @@
     android:orientation="vertical" >
 
     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg" />
+
+    <TextView
         android:id="@+id/text"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/hello" />
-
+    
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
@@ -39,6 +45,12 @@
  	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zhubajie" android:id="@+id/zhubajie" />
  	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shaheshang" android:id="@+id/shaheshang" />
  	<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/spinner"/>
- 	-->
  	<ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/listView"></ListView>
+ 	<AutoCompleteTextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/autoCompleteTextView" 
+ 	    android:hint="请输入您知道的西游记人物" android:completionHint="我知道的人物" android:completionThreshold="1"/>
+ 	<MultiAutoCompleteTextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/multiAutoCompleteTextView"
+ 	    android:hint="请输入您知道的西游记人物" android:completionHint="我知道的人物" android:completionThreshold="1"/>
+ 	<GridView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/gridView" android:numColumns="2" android:background="#FFF"></GridView>
+ 	-->
+ 	<ExpandableListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/expandableListView"></ExpandableListView>
 </LinearLayout>
