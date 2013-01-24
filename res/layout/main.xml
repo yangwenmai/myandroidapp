@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout android:layout_width="match_parent"
+		android:id="@+id/linearLayout1" android:layout_height="match_parent"
+		android:orientation="vertical">
+		<TabWidget android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@android:id/tabs"></TabWidget>
+		<FrameLayout android:layout_width="match_parent"
+			android:layout_height="match_parent" android:id="@android:id/tabcontent">
+			<LinearLayout android:layout_width="match_parent"
+				android:orientation="vertical" android:layout_height="match_parent"
+				android:id="@+id/tab1">
+
+				<ImageView android:layout_width="wrap_content" android:id="@+id/imageView1"
+					android:layout_height="wrap_content" android:src="@drawable/tangseng"
+					android:layout_gravity="center"></ImageView>
+				<TextView android:text="唐僧会" android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:textSize="24dp" />
+				<ListView android:id="@+id/listView1" android:entries="@array/tangseng"
+					android:layout_height="wrap_content" android:layout_width="match_parent"></ListView>
+
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent"
+				android:orientation="vertical" android:layout_height="match_parent"
+				android:id="@+id/tab2">
+
+				<ImageView android:layout_width="wrap_content" android:id="@+id/imageView1"
+					android:layout_height="wrap_content" android:src="@drawable/sunwukong"
+					android:layout_gravity="center"></ImageView>
+				<TextView android:text="孙悟空会" android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:textSize="24dp" />
+				<ListView android:id="@+id/listView2" android:entries="@array/sunwukong"
+					android:layout_height="wrap_content" android:layout_width="match_parent"></ListView>
+
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent"
+				android:orientation="vertical" android:layout_height="match_parent"
+				android:id="@+id/tab3">
+
+				<ImageView android:layout_width="wrap_content" android:id="@+id/imageView1"
+					android:layout_height="wrap_content" android:src="@drawable/zhubajie"
+					android:layout_gravity="center"></ImageView>
+				<TextView android:text="猪八戒会" android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:textSize="24dp" />
+				<ListView android:id="@+id/listView3" android:entries="@array/zhubajie"
+					android:layout_height="wrap_content" android:layout_width="match_parent"></ListView>
+
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="match_parent"
+				android:orientation="vertical" android:layout_height="match_parent"
+				android:id="@+id/tab4">
+
+				<ImageView android:layout_width="wrap_content" android:id="@+id/imageView1"
+					android:layout_height="wrap_content" android:src="@drawable/shaheshang"
+					android:layout_gravity="center"></ImageView>
+				<TextView android:text="沙和尚会" android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:textSize="24dp" />
+				<ListView android:id="@+id/listView4" android:entries="@array/shaheshang"
+					android:layout_height="wrap_content" android:layout_width="match_parent"></ListView>
+
+			</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

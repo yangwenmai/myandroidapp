@@ -11,5 +11,22 @@
 	<string name="sunwukong">孙悟空</string>
 	<string name="zhubajie">猪八戒</string>
 	<string name="shaheshang">沙和尚</string>
+
 	
+	<string-array name="tangseng">
+        <item>念紧箍咒</item>
+        <item>说阿弥陀佛</item>
+    </string-array>
+    <string-array name="sunwukong">
+        <item>七十二变</item>
+        <item>打妖精</item>
+        <item>腾云驾雾</item>
+    </string-array>
+    <string-array name="zhubajie">
+        <item>偷懒</item>
+        <item>睡觉</item>
+    </string-array>
+    <string-array name="shaheshang">
+        <item>挑担子</item>
+    </string-array>	
 </resources>

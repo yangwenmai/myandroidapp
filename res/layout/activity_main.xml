@@ -51,6 +51,22 @@
  	<MultiAutoCompleteTextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/multiAutoCompleteTextView"
  	    android:hint="请输入您知道的西游记人物" android:completionHint="我知道的人物" android:completionThreshold="1"/>
  	<GridView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/gridView" android:numColumns="2" android:background="#FFF"></GridView>
- 	-->
  	<ExpandableListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/expandableListView"></ExpandableListView>
+ 	<TextView android:text="西游记各主人公通辑令" android:id="@+id/textView1"  
+        android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+ 	<ImageSwitcher android:id="@+id/imageSwitcher"  
+        android:layout_width="320dp" android:layout_height="280dp"></ImageSwitcher>
+ 	<Gallery android:layout_width="match_parent"  
+        android:layout_height="wrap_content" android:id="@+id/gallery1"></Gallery>
+	<TextView android:text="西游记各主人公通辑令" android:id="@+id/textView1"  
+        android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	  
+    <ListView android:id="@+id/listView" android:layout_height="wrap_content"  
+        android:layout_width="match_parent"></ListView>  
+  
+    <TextView android:layout_height="wrap_content"  
+        android:layout_width="fill_parent" android:text="@string/hello"  
+        android:id="@+id/text"></TextView>
+ 	-->
+ 	
 </LinearLayout>
