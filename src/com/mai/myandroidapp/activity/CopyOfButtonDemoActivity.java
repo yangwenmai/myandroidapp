@@ -15,7 +15,7 @@
 //import android.widget.ImageView;
 //import android.widget.TextView;
 //import android.widget.ViewSwitcher.ViewFactory;
-//
+// 
 //import com.mai.myandroidapp.R;
 //
 ////public class ButtonDemoActivity extends Activity implements OnClickListener {

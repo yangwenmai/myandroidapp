@@ -11,8 +11,7 @@ import android.widget.Button;
 
 import com.mai.myandroidapp.R;
 
-public class NotificationDemoActivity extends Activity
-{
+public class NotificationDemoActivity extends Activity {
 	private final static int NOTIFYCATION_ID = 0x11;
 	@Override
 	protected void onCreate(Bundle savedInstanceState)

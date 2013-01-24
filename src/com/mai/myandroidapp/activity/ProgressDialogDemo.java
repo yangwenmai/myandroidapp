@@ -12,8 +12,7 @@ import android.widget.Toast;
 
 import com.mai.myandroidapp.R;
 
-public class ProgressDialogDemo extends Activity implements OnClickListener
-{
+public class ProgressDialogDemo extends Activity implements OnClickListener {
 	private ProgressDialog Dialog;
 	private Handler mhandler;
 	@Override

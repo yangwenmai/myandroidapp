@@ -18,7 +18,7 @@
 //import com.mai.myandroidapp.R;
 //
 //public class Copy_2_of_ButtonDemoActivity extends Activity
-//{
+//{ 
 //	private TextView text = null;
 //	private int[] image = { R.drawable.tangseng, R.drawable.sunwukong,
 //			R.drawable.zhubajie, R.drawable.shaheshang };

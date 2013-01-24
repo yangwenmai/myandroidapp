@@ -5,8 +5,7 @@ import android.widget.TabHost;
 
 import com.mai.myandroidapp.R;
 
-public class TabHostDemoActivity extends TabActivity
-{
+public class TabHostDemoActivity extends TabActivity {
 	private String[] item = { "唐僧", "孙悟空 ", "猪八戒", "沙和尚" };
 	private int[] tab = {R.id.tab1, R.id.tab2, R.id.tab3, R.id.tab4};
 	
